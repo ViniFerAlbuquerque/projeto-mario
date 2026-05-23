@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta, sans-serif";
+}
+
+.logo-mario {
+    width: 350px;
+    /* height: 250px; */
+    border-radius: 15px;
+}
+
+.logo-mario-luidi {
+    height: 500px;
+}
+
+button {
+    background: #C51111;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.caixa-info-texto {
+    width: 40%;
+    color: #FFFFFF;
+}
+
+body {
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.mascara-video {
+    background: linear-gradient(109deg,
+            rgba(10, 12, 16, 0.99) 15%,
+            rgba(10, 12, 16, 0.7) 50%,
+            rgba(10, 12, 16, 0.99) 85%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+header img {
+    width: 60px;
+
+}
+
+header a {
+    color: #FFFFFF;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+header a:hover {
+    color: #C51111;
+    transition: 0.9 ease-in-out;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    gap: 34px;
+    padding: 20px;
+
+}
+
+footer img {
+    width: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+form {
+    background-color: #FFFFFF;
+
+    position: fixed;
+    top: 40%;
+    left: -340px;
+
+    /* left: 50%;
+    transform: translateX(-50%); */
+
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 4px;
+    width: 350px;
+
+    z-index: 1;
+}
+
+form input {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1ps solid #2f312f;
+    outline-color: #18D80F;
+}
+
+form textarea {
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1ps solid #2f312f;
+    outline-color: #18D80F;
+    height: 100px;
+}
+
+/* .mascara-formulario {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%,
+            rgba(10, 12, 16, 0.7) 50%,
+            rgba(10, 12, 16, 0.99) 85%);
+
+} */
