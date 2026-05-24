@@ -1,0 +1,74 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Mukta, sans-serif";
+        }
+
+        body {
+            background-color: rgb(223, 221, 221);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        img {
+            height: 40vh;
+            width: 26vw;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #12127c;
+        }
+
+        header img {
+            width: 60px;
+        }
+
+        header a {
+            color: #18D80F;
+            font-size: 24px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            color: #C51111;
+            transition: 0.9 ease-in-out;
+        }
+
+        header {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            width: 100vw;
+            gap: 34px;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        .logo-mario {
+            width: 80px;
+            height: 70px;
+        }
+
+        main {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 100px;
+            height: 100vh;
+        }
+
+
+        footer img {
+            position: fixed;
+            bottom: 15px;
+            right: 10px;
+            cursor: pointer;
+            width: 60px;
+            height: 60px;
+        }

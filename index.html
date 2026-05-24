@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/logo-header.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Mario Bros</title>
+    <title>Mario Bros Encanadores!</title>
 </head>
 
 <body>
 
     <header>
         <img src="img/logo-header.png" alt="logo-header-mario" />
-        <a>Home</a> <a>Fale Conosco</a> <a>Nossos Serviços</a>
+        <a>Home</a> 
+        <a onclick="mostrarForm()">Fale Conosco</a> 
+        <a href="servicos.html">Nossos Serviços</a>
     </header>
 
     <main>
@@ -28,7 +30,7 @@
                 Não se preocupe, porque estamos aqui para salvar o dia!
                 Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
             </p>
-            <button onclick="cliqueNoBotao()">Entre em contato!</button>
+            <button onclick="mostrarForm()">Entre em contato!</button>
         </section>
         <section class="section-2"><img src="img/mario.png" alt="logo-mario-luidi" class="logo-mario-luidi" /></section>
     </main>
@@ -38,14 +40,14 @@
         <section class="mascara-video"></section>
     </section>
 
-        <form>
+    <form class="formulario">
         <input placeholder="Seu nome:" type="text" />
         <input placeholder="Seu emal:" type="text" />
         <textarea placeholder="Digite seu problema aqui..." name="" id=""></textarea>
         <button>Pedir orçamento:</button>
     </form>
 
-    <section class="mascara-formulario"></section>
+    <section class="mascara-formulario" onclick="esconderForm()"></section>
 
     <footer>
             <!-- Gerador de link: https://api.chatpro.com.br/gerador-de-links -->
