@@ -72,3 +72,10 @@
             width: 60px;
             height: 60px;
         }
+
+        @media (max-width: 1000px) {
+            img {
+                height: 20vh;
+                width: 20vw;
+            }
+        }

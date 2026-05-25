@@ -158,3 +158,42 @@ form textarea {
     visibility: hidden;
     transition: 0.5s visibility ease-in-out;
 }
+
+@media (max-width: 1000px) {
+    .logo-mario {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .caixa-info-texto {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-mario {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    .header {
+        margin: 20px;
+        justify-content: center;
+
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header a {
+        font-size: 18px;
+    }
+
+}
