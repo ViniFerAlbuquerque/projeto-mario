@@ -13,8 +13,8 @@
 
     <header>
         <img src="img/logo-header.png" alt="logo-header-mario" />
-        <a>Home</a> 
-        <a onclick="mostrarForm()">Fale Conosco</a> 
+        <a>Home</a>
+        <a onclick="mostrarForm()">Fale Conosco</a>
         <a href="servicos.html">Nossos Serviços</a>
     </header>
 
@@ -40,22 +40,24 @@
         <section class="mascara-video"></section>
     </section>
 
-    <form class="formulario">
-        <input placeholder="Seu nome:" type="text" />
-        <input placeholder="Seu emal:" type="text" />
-        <textarea placeholder="Digite seu problema aqui..." name="" id=""></textarea>
-        <button>Pedir orçamento:</button>
+    <form class="formulario" action="https://formcarry.com/s/liS8H7oLIMh" method="POST" enctype="multipart/form-data">
+        <input placeholder="Seu nome:" type="text" name="nome" />
+        <input placeholder="Seu emal:" type="email" name="email" />
+        <textarea placeholder="Digite seu problema aqui..." name="problema" id="problema">
+        </textarea>
+        <button type="submit">Pedir orçamento:</button>
     </form>
 
     <section class="mascara-formulario" onclick="esconderForm()"></section>
 
     <footer>
-            <!-- Gerador de link: https://api.chatpro.com.br/gerador-de-links -->
-            <a href="https://wa.me/5541233444343?text=Por%20favor%2C%20necessito%20de%20or%C3%A7amento!">
-                <img src="img/whatsapp.png" alt="link-whatsapp" />
-            </a>
+        <!-- Gerador de link: https://api.chatpro.com.br/gerador-de-links -->
+        <a href="https://wa.me/5541233444343?text=Por%20favor%2C%20necessito%20de%20or%C3%A7amento!">
+            <img src="img/whatsapp.png" alt="link-whatsapp" />
+        </a>
     </footer>
 
 </body>
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </html>
